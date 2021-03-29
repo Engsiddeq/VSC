@@ -6,18 +6,7 @@
 
 
 <details>
-  <summary>NOTES</summary>
-
-|NOTE|what about it| related commands| what that command do|
-| :---:| :---:| :---:|:---:|
-| |
-
-
-
-
-----
-</details>
-
+  <summary>General Shortcuts and Tricks</summary>
 
 
 
@@ -29,11 +18,20 @@
 |:---|:---|:---:|
 |Search by Category | ![](img/1.png)
 Adding a snipet of code| `google it hhh bm`|you can add a snipet of code and assign a keyword to it so everytime you write that keyword you get VSC suggesting to complete the rest of code for you
-
+You can rename files and imported modules and it will be updated automatically wherever it was mentioned
 
 
 ----
 </details>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -58,20 +56,6 @@ Terminal Toggle|<code>Ctrl + &grave;</code>
 
 
 
-
-
-<details>
-  <summary>Cool Configuerations</summary>
-
-- set the cursor blinking animation to expanding instead of blinking from the Settings `Ctrl + ,`
-- in the side bar (`ctrl + B` To Show) in the explorer window(`ctrl + shift+ E` To Show) Hide everything but the open Editor section and the time line and the outline and everything but your explorer folders
-- don't stick with the default VS icon themes insted download your preferable icon theme and color theme and change to it from `Files` > `preferences` > themes
-- change the default terminal from settings ` Ctrl + ,` to the git bash shell instead of windows cmd or windows power shell
-- set a default path to the termianl to open to instead of writing (cd ./path/some_dir) everytime
-- set the terminal right click behaviour to Default instead of paste
-- Delay the pop ups that appears once you hover on or select a function.. you can do that from settings > search for Hover and delay and make it 700ms
-- When you save a file and last fewlines are just empty and maybe there's random spaces at the end of several lines and you want to getrid of that on saving files.. you can do that from the settings by checking the `Trim Final newlines` and `Trim trailing WhiteSpaces`
-
 ----
 </details>
 
@@ -85,9 +69,7 @@ Terminal Toggle|<code>Ctrl + &grave;</code>
 
 
 
-
-
-
+---------------------------------------------------------------------
 
 
 
@@ -111,7 +93,16 @@ Terminal Toggle|<code>Ctrl + &grave;</code>
 
 
 <details>
-  <summary>syntax shorcuts</summary>
+  <summary>Editor & Terminal  & Syntax Shorcuts</summary>
+
+
+
+
+
+
+
+<details>
+  <summary>Editor Shorcuts</summary>
 
 |Commands|Keyboard Shortcut|additional info
 |:--|:--|:--:|
@@ -155,13 +146,6 @@ Fold Lvl 1 to 7|`Ctrl + K Ctrl + 1/2/3..7`
 Format File|`Shift + alt + F`
 Format Selection|`Ctrl + K Ctrl + F`
 
-
-
-
-
-
-
-
 ----
 </details>
 
@@ -170,10 +154,14 @@ Format Selection|`Ctrl + K Ctrl + F`
 
 
 
-<details>
-  <summary>For a Bash terminal Terminal</summary>
 
-|Trick|How|Additional info|
+
+
+
+<details>
+  <summary>Bash Terminal Shortcuts</summary>
+
+|Command|Shortcut|Additional info|
 |:---|:---|:---:|
 Terminal Toggle|<code>Ctrl + &grave;</code>
 New Terminal|<code>Ctrl + Shift +&grave;</code>
@@ -192,13 +180,86 @@ Paste text|`Ctrl + shift + V` or `insert` or `shift + insert`
 
 
 
+
+
+
 <details>
-  <summary>Python</summary>
+  <summary>HTML ShortCuts</summary>
+
+|Shortcut|Command|Additional info|
+|:---|:---|:---:|
+`! + Enter`| you know it
+`d + choose div from th list and hit Enter`| all you need to do is to write the frst one or two letters and Vs code will gnerate the opening and closing tags for you
+`Ctrl + Enter`| Goes to next line
+`div#id` and hit enter| Emmet
+`div.class`| Emmet
+`h1>span`| Emmet
+`p>span+div`| Emmet
+`ul>li*8`| Emmet
+
+
+
+----
+</details>
+
+
+
+
+
+
+<details>
+  <summary>Python ShortCuts</summary>
 
 |Trick|How|Additional info|
 |:---|:---|:---:|
 Run Selection or current line in a terminal|`shift + Enter`
 
+
+----
+</details>
+
+
+
+
+
+
+----
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------
+
+<details>
+  <summary>Cool Configuerations</summary>
+
+|config|additional info|
+|:---|:---|
+cursor blinking animation|set the cursor blinking animation to expanding instead of blinking from the Settings `Ctrl + ,`
+Hide everything in the side bar but the file explorer|in the side bar (`ctrl + B` To Show) in the explorer window(`ctrl + shift+ E` To Show) Hide everything but the file explorer open Editor section and the time line and the outline and everything but your explorer folders
+icon theme|don't stick with the default VS icon themes insted download your preferable icon theme and color theme and change to it from `Files` > `preferences` > themes
+git bash shell instead of windows cmd|change the default terminal from settings ` Ctrl + ,` to the git bash shell instead of windows cmd or windows power shell
+default Cwd (currend directory) to the termianl|set a default path to the termianl to open to instead of writing (cd ./path/some_dir) everytime
+the terminal right click behaviour|set the terminal right click behaviour to Default instead of paste
+|Delay the function defention pop ups|Delay the pop ups that appears once you hover on or select a function.. you can do that from settings > search for Hover and delay and make it 700ms
+Trim Final newlines|When you save a file and last fewlines are just empty and maybe there's random spaces at the end of several lines and you want to getrid of that on saving files.. you can do that from the settings by checking the `Trim Final newlines` and `Trim trailing WhiteSpaces`
+Fira Code Font|Replace the Default Font with [Fira Code Font](https://github.com/tonsky/FiraCode) -- To install it go to the settings -- in the font family type in `Fira Code,` at the beggining or type `Fira Code` and delete everything else -- **Tick the check box "Enables/Disables font ligatures" under "Font Ligatures" to enable the special ligatures.** if you can't see this option change it from the json file from null to true just search for the "Font Ligatures"
+Mouse Wheel Zoom|Tick the check box "Mouse Wheel Zoom" That let you zoom while holding `Ctrl` you can also reset the font zoom by `ctrl + numpad0` but this needs to be assigned as a shortcut as it doesn't come with VS code
+End with a newline|Tick the check box "End with a newline" to create a newline at the end of each file
+Rename on Type| if you renamed an opening tag and want the closing tag to be renamd automatically there's extensions for that called `auto rename tag`
 
 ----
 </details>
