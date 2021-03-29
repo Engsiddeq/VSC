@@ -4,7 +4,6 @@
 
 
 
-
 <details>
   <summary>General Shortcuts and Tricks</summary>
 
@@ -191,7 +190,7 @@ Paste text|`Ctrl + shift + V` or `insert` or `shift + insert`
 `! + Enter`| you know it
 `d + choose div from th list and hit Enter`| all you need to do is to write the frst one or two letters and Vs code will gnerate the opening and closing tags for you
 `Ctrl + Enter`| Goes to next line
-`div#id` and hit enter| Emmet
+`div#id` **and** hit enter| Emmet
 `div.class`| Emmet
 `h1>span`| Emmet
 `p>span+div`| Emmet
@@ -259,7 +258,7 @@ Trim Final newlines|When you save a file and last fewlines are just empty and ma
 Fira Code Font|Replace the Default Font with [Fira Code Font](https://github.com/tonsky/FiraCode) -- To install it go to the settings -- in the font family type in `Fira Code,` at the beggining or type `Fira Code` and delete everything else -- **Tick the check box "Enables/Disables font ligatures" under "Font Ligatures" to enable the special ligatures.** if you can't see this option change it from the json file from null to true just search for the "Font Ligatures"
 Mouse Wheel Zoom|Tick the check box "Mouse Wheel Zoom" That let you zoom while holding `Ctrl` you can also reset the font zoom by `ctrl + numpad0` but this needs to be assigned as a shortcut as it doesn't come with VS code
 End with a newline|Tick the check box "End with a newline" to create a newline at the end of each file
-Rename on Type| if you renamed an opening tag and want the closing tag to be renamd automatically there's extensions for that called `auto rename tag`
-
+auto rename tag| if you renamed an opening tag and want the closing tag to be renamd automatically there's extensions for that called `auto rename tag`
+Polacode extension|it produces Code screenshots of a code selection
 ----
 </details>
