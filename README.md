@@ -18,7 +18,7 @@
 |Search by Category | ![](img/1.png)
 Adding a snipet of code| `google it hhh bm`|you can add a snipet of code and assign a keyword to it so everytime you write that keyword you get VSC suggesting to complete the rest of code for you
 You can rename files and imported modules and it will be updated automatically wherever it was mentioned
-
+ScreenCast Mode| it's good for tutorials and you can turn it on from the command pallete<br> ![](img/8.png)
 
 ----
 </details>
@@ -213,7 +213,9 @@ Paste text|`Ctrl + shift + V` or `insert` or `shift + insert`
 |:---|:---|:---:|
 `shift + Enter`|Run Selection or current line in a terminal|
 select all + `Shift + Enter`| Run the document or you can assign your own keyword to it as it doesn't come with a keyward I assigned `Ctrl + K Ctr+ Enter` For it
-
+`#%%`|insert `#%%` anywhere to make a code cell that can be run and debuged
+`Ctrl + Shift + P` (Command pallete) and search for creting a new `Jupyter notebook`|Jupyter notebook
+Select a function and right click then choose extract method or look for it in the command pallete| How to extract a function or a method
 
 
 ----
@@ -297,8 +299,8 @@ Debugger for Chrome| Best debuger for js
 ES7 React/Redux/GraphQL/React-Native snippets| react snippits
 Vetur|Vue formatting and emmets and snippets
 Vuln Cost - Security Scanner|Security Scanner to find and fix vulnerabilities in JavaScript and TypeScript.
-
-
+PHP Intelephense |PHP snippets and formatting
+PHP DocBlocker|A simple, dependency free PHP specific DocBlocking package
 ----
 </details>
 </details>
