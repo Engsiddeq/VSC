@@ -19,6 +19,7 @@
 Adding a snipet of code| `google it hhh bm`|you can add a snipet of code and assign a keyword to it so everytime you write that keyword you get VSC suggesting to complete the rest of code for you
 You can rename files and imported modules and it will be updated automatically wherever it was mentioned
 ScreenCast Mode| it's good for tutorials and you can turn it on from the command pallete<br> ![](img/8.png)
+`Publish to github`...You can create repos on github without opening the website and push your project live with one press in VS code..|just open the command pallete and look for `Publish to github`
 
 ----
 </details>
@@ -242,9 +243,7 @@ Select a function and right click then choose extract method or look for it in t
 
 
 
-
-
--------------------------------------------------------------------------
+---------------------------------------------------------------------
 
 <details>
   <summary>Cool Configs and Extensions</summary>
@@ -265,6 +264,7 @@ the terminal right click behaviour|set the terminal right click behaviour to Def
 |Delay the function defention pop ups|Delay the pop ups that appears once you hover on or select a function.. you can do that from settings > search for Hover and delay and make it 700ms
 Trim Final newlines|When you save a file and last fewlines are just empty and maybe there's random spaces at the end of several lines and you want to getrid of that on saving files.. you can do that from the settings by checking the `Trim Final newlines` and `Trim trailing WhiteSpaces`
 Fira Code Font|Replace the Default Font with [Fira Code Font](https://github.com/tonsky/FiraCode) -- To install it go to the settings -- in the font family type in `Fira Code,` at the beggining or type `Fira Code` and delete everything else -- **Tick the check box "Enables/Disables font ligatures" under "Font Ligatures" to enable the special ligatures.** if you can't see this option change it from the json file from null to true just search for the "Font Ligatures"
+cascadia code Font|Like the previous but i prefere this over fira tbh
 Mouse Wheel Zoom|Tick the check box "Mouse Wheel Zoom" That let you zoom while holding `Ctrl` you can also reset the font zoom by `ctrl + numpad0` but this needs to be assigned as a shortcut as it doesn't come with VS code
 End with a newline|Tick the check box "End with a newline" to create a newline at the end of each file
 
@@ -295,12 +295,22 @@ Regex Previewer|Regex matches previewer for JavaScript, TypeScript, PHP and Haxe
 Regexp Explain|explain regex in vscode
 npm Intellisense|Visual Studio Code plugin that autocompletes npm modules in import statements
 JavaScript (ES6) code snippets|js snippets and move betweeen them with Tabs as we mentioned earlier
+Better Comments|Improve your code commenting by annotating with alert, informational, TODOs, and more!
+Quokka.js|JavaScript and TypeScript playground in your editor.
+Live Server|updates Html previews constantly without having to reload the page
+CSS Peek|shows you inline css definitions
 Debugger for Chrome| Best debuger for js
+import Cost|Display import/require package size in the editor
 ES7 React/Redux/GraphQL/React-Native snippets| react snippits
 Vetur|Vue formatting and emmets and snippets
 Vuln Cost - Security Scanner|Security Scanner to find and fix vulnerabilities in JavaScript and TypeScript.
 PHP Intelephense |PHP snippets and formatting
 PHP DocBlocker|A simple, dependency free PHP specific DocBlocking package
+Cobalt2 Theme Official| is very good for a day time coding along with the default vsc dark theme and night owl and viow and material theme and drakula and tokyo night
+Material theme occean high Contrast|for me is the best for a night coding with no competetors or maybe the night owl and also default dark might work
+GitLens — Git supercharged|a ton of git features
+
+
 ----
 </details>
 </details>
