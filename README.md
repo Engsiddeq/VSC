@@ -105,45 +105,45 @@ Terminal Toggle|<code>Ctrl + &grave;</code>
 
 |Commands|Keyboard Shortcut|additional info
 |:--|:--|:--:|
-comment a line or multible linees in any language|`Ctrl + /`
-add another cursor anywhere |`alt + click`
-add another cursor above |<code>Ctrl + alt + &uarr;</code>
-add another cursor Below |<code>Ctrl + alt + &darr;</code>
-add another cursor at the end of lines |<code>shift + alt + i</code>
-**move the line UP or multible lines up** |<code>alt + &uarr;</code>
-move the line Down or multible lines down |<code>alt + &darr;</code>
-**Doublicate a line UP or multible lines up** |<code>alt + &darr;</code>
-Doublicate a line Down or multible lines down |<code>alt + &uarr;</code>
-move the cursor in the body of the snippet|`tab`|<details><summary>additional info</summary>after VS Code complete your code and write a snippet for you<br> ![](img/3.png) ![](img/4.png)<br>, you can move the cursor through some positions in the snippet by pressing `tab` <br>![](img/5.png)<br>.. keep pressing tab and it will move the curser to another place in the snippet identified in the snippet json file and you can edit it so every time you press `tab` it move the cusor wherever you like in the snippet</details>
-**Expand Selection**|<code>shift + alt + &rarr;</code>
-**Select the current word that the curser is on**|`Ctrl + D` or <code>shift + alt + &rarr;</code>
-Select the current line that the curser is on|<code>shift + alt + &rarr;</code> Two times
-Select the current Block of code that the curser is on|<code>shift + alt + &rarr;</code>  Three times
-Select from this line till the end of file|<code>shift + alt + &rarr;</code>  four times
-**Select the next match of current selection**|`Ctrl + D`
-**Select All matches of current selection**|`Ctrl + Shift + L`|also selects all matches of Findmatch
-To change all matches of a findmatch|hit `Ctrl + Enter` or click the change all button
-Deselect(Clear selection) and close the Find window | `Escape` | would also work and clear section in the Terminal window
-Go to line 60|`Ctrl + G` and type 60 or alternativly `Ctrl + P` then `:60`
-**Go to Last Cursor Position**|`Ctrl + U`
-Go 30 Lines Back or next|`PgUp`/`PgDn`
-Go To Brackets|`Ctrl + Shift \`
-Go To Defention|`F12`
-Go To implementation|`Ctrl + F12`
-Go To Next Problem (Error,Warn..etc)|`Alt + F8`
-Go To Next Problem in all files(Error,Warn..etc)|`F8`
-Go To Next reference|`F4`
-Go To last reference|`shift + F4`
-Go To Next Sympol Highlight|`F7`
-Go To References|`shift + F4`
-Scroll up and down like the mouse | <code>alt + &uarr;</code> and <code>alt + &darr;</code>
-Fold and unfold Code blocks|`Ctrl + shift + [`   `Ctrl + shift + ]`
-Fold All|`Ctrl + K Ctrl + 0`
-unFold All|`Ctrl + K Ctrl + j`
-Fold all Comment blocks|`Ctrl + K Ctrl + /`
-Fold Lvl 1 to 7|`Ctrl + K Ctrl + 1/2/3..7`
-Format File|`Shift + alt + F`
-Format Selection|`Ctrl + K Ctrl + F`
+`Ctrl + /` |comment a line or multible linees in any language
+`alt + click` |add another cursor anywhere
+<code>Ctrl + alt + &uarr;</code> |add another cursor above
+<code>Ctrl + alt + &darr;</code> |add another cursor Below
+<code>shift + alt + i</code> |add another cursor at the end of lines
+<code>alt + &uarr;</code> |**move the line UP or multible lines up**
+<code>alt + &darr;</code> |move the line Down or multible lines down
+<code>alt + &darr;</code> |**Doublicate a line UP or multible lines up**
+<code>alt + &uarr;</code> |Doublicate a line Down or multible lines down
+|`tab`|move the cursor in the body of the snippet|<details><summary>additional info</summary>after VS Code complete your code and write a snippet for you<br> ![](img/3.png) ![](img/4.png)<br>, you can move the cursor through some positions in the snippet by pressing `tab` <br>![](img/5.png)<br>.. keep pressing tab and it will move the curser to another place in the snippet identified in the snippet json file and you can edit it so every time you press `tab` it move the cusor wherever you like in the snippet</details>
+<code>shift + alt + &rarr;</code> |**Expand Selection**|
+`Ctrl + D` or <code>shift + alt + &rarr;</code> |**Select the current word that the curser is on**|
+<code>shift + alt + &rarr;</code> Two times |Select the current line that the curser is on|
+<code>shift + alt + &rarr;</code>  Three times |Select the current Block of code that the curser is on|
+<code>shift + alt + &rarr;</code>  four times |Select from this line till the end of file|
+`Ctrl + D` |**Select the next match of current selection**|
+`Ctrl + Shift + L`|**Select All matches of current selection**|also selects all matches of Findmatch
+hit `Ctrl + Enter` or click the change all button |To change all matches of a findmatch|
+ `Escape` |Deselect(Clear selection) and close the Find window | would also work and clear section in the Terminal window
+`Ctrl + G` and type 60 or alternativly `Ctrl + P` then `:60` |Go to line 60|
+`Ctrl + U` |**Go to Last Cursor Position**|
+`PgUp`/`PgDn` |Go 30 Lines Back or next|
+`Ctrl + Shift \` |Go To Brackets|
+`F12` |Go To Defention|
+`Ctrl + F12` |Go To implementation|
+`Alt + F8` |Go To Next Problem (Error,Warn..etc)|
+`F8` |Go To Next Problem in all files(Error,Warn..etc)|
+`F4` |Go To Next reference|
+`shift + F4` |Go To last reference|
+`F7` |Go To Next Sympol Highlight|
+`shift + F4` |Go To References|
+ <code>alt + &uarr;</code> and <code>alt + &darr;</code> |Scroll up and down like the mouse |
+`Ctrl + shift + [`   `Ctrl + shift + ]` |Fold and unfold Code blocks|
+`Ctrl + K Ctrl + 0` |Fold All|
+`Ctrl + K Ctrl + j` |unFold All|
+`Ctrl + K Ctrl + /` |Fold all Comment blocks|
+`Ctrl + K Ctrl + 1/2/3..7` |Fold Lvl 1 to 7|
+`Shift + alt + F` |Format File|
+`Ctrl + K Ctrl + F` |Format Selection|
 
 ----
 </details>
@@ -209,9 +209,11 @@ Paste text|`Ctrl + shift + V` or `insert` or `shift + insert`
 <details>
   <summary>Python ShortCuts</summary>
 
-|Trick|How|Additional info|
+|Shortcut|Command|Additional info|
 |:---|:---|:---:|
-Run Selection or current line in a terminal|`shift + Enter`
+`shift + Enter`|Run Selection or current line in a terminal|
+select all + `Shift + Enter`| Run the document or you can assign your own keyword to it as it doesn't come with a keyward I assigned `Ctrl + K Ctr+ Enter` For it
+
 
 
 ----
@@ -243,6 +245,11 @@ Run Selection or current line in a terminal|`shift + Enter`
 -------------------------------------------------------------------------
 
 <details>
+  <summary>Cool Configs and Extensions</summary>
+
+
+
+<details>
   <summary>Cool Configuerations</summary>
 
 |config|additional info|
@@ -258,7 +265,56 @@ Trim Final newlines|When you save a file and last fewlines are just empty and ma
 Fira Code Font|Replace the Default Font with [Fira Code Font](https://github.com/tonsky/FiraCode) -- To install it go to the settings -- in the font family type in `Fira Code,` at the beggining or type `Fira Code` and delete everything else -- **Tick the check box "Enables/Disables font ligatures" under "Font Ligatures" to enable the special ligatures.** if you can't see this option change it from the json file from null to true just search for the "Font Ligatures"
 Mouse Wheel Zoom|Tick the check box "Mouse Wheel Zoom" That let you zoom while holding `Ctrl` you can also reset the font zoom by `ctrl + numpad0` but this needs to be assigned as a shortcut as it doesn't come with VS code
 End with a newline|Tick the check box "End with a newline" to create a newline at the end of each file
+
+------
+</details>
+
+
+
+
+<details>
+  <summary>Cool Extensions</summary>
+
+
+
+|Extension|additional info|
+|:---|:---|
 auto rename tag| if you renamed an opening tag and want the closing tag to be renamd automatically there's extensions for that called `auto rename tag`
-Polacode extension|it produces Code screenshots of a code selection
+Polacode extension or Codesnap as an alternative|it produces Code screenshots of a code selection
+the Cdnjs extension|insert libraries (google it)
+Prettier or Beautify|Beautify has less languages support but it support "Format Selection" so i have both
+Bracket Pair Colorizer 2 or Highlight Matching Tag|highleight currnt block from it's name
+Log File Highlighter|
+**EsLint**| very important formatter for js but you have to do somestuff after installing it google it or read docs (those things are to install globally or locally and create a configuration)
+Bookmarks|Mark lines and jump to them
+Select By| modify the selection based on Regular Expressions<br>Select By Paste Clipboard: Replace selection with clipboard content<br>Select By Line Number: Place cursor based on line number, uses boolean expression<br>Select By Remove Cursor: Remove one of the multi cursors<br>Move By: move the cursor based on Regular Expressions or a Calculation
+Regex Snippets|Easily Insert Popular Regex Codes Without Memorising Anything!
+Regex Previewer|Regex matches previewer for JavaScript, TypeScript, PHP and Haxe in Visual Studio Code.
+Regexp Explain|explain regex in vscode
+npm Intellisense|Visual Studio Code plugin that autocompletes npm modules in import statements
+JavaScript (ES6) code snippets|js snippets and move betweeen them with Tabs as we mentioned earlier
+Debugger for Chrome| Best debuger for js
+ES7 React/Redux/GraphQL/React-Native snippets| react snippits
+Vetur|Vue formatting and emmets and snippets
+Vuln Cost - Security Scanner|Security Scanner to find and fix vulnerabilities in JavaScript and TypeScript.
+
+
 ----
+</details>
+</details>
+</details>
+
+
+--------------------------------------------------------
+
+
+<details>
+  <summary>File and Folder Names Explained</summary>
+
+File Name|what about it
+:--|:--|
+package.json|&oast; the settings file used by npm (node Package manager) to configure or set-up the project <br>&oast;  It usually comes with a folder named `node_modules` that contains all dependencies <br><details><summary> and a dependency means</summary> that when a piece of software relies on another one, a dependecy is that other one..(for eg. the extension "pretier" can be installed either globally for the Vs code or locally to be used in only one project by running the command ` npm install prettier -D --save-exact ` then it will be installed onlly in the project directory inside a `node_modile` folder </details>---------------------------------------<br><details><summary> But How We Can create a Package.json file??<br></summary> you can write in the terminal `npm init` this will ask you a series of question or you can type `npm init --y` and it'll create one with the defaults <br></details>
+.VScode (Folder)|Contatins a "settings.json" file that have configs that VS code will use only for this project
+
+
 </details>
