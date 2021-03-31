@@ -145,6 +145,7 @@ hit `Ctrl + Enter` or click the change all button |To change all matches of a fi
 `Ctrl + K Ctrl + 1/2/3..7` |Fold Lvl 1 to 7|
 `Shift + alt + F` |Format File|
 `Ctrl + K Ctrl + F` |Format Selection|
+`Ctrl + Shift + K`|Remove current line
 
 ----
 </details>
