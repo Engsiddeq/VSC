@@ -146,6 +146,7 @@ hit `Ctrl + Enter` or click the change all button |To change all matches of a fi
 `Shift + alt + F` |Format File|
 `Ctrl + K Ctrl + F` |Format Selection|
 `Ctrl + Shift + K`|Remove current line
+`F2`|Rename in the whole document alternativlly would be find and change all
 
 ----
 </details>
