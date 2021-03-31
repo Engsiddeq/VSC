@@ -20,7 +20,7 @@ Adding a snipet of code| `google it hhh bm`|you can add a snipet of code and ass
 You can rename files and imported modules and it will be updated automatically wherever it was mentioned
 ScreenCast Mode| it's good for tutorials and you can turn it on from the command pallete<br> ![](img/8.png)
 `Publish to github`...You can create repos on github without opening the website and push your project live with one press in VS code..|just open the command pallete and look for `Publish to github`
-
+open folder from the Terminal rather from the file menu|`Code folder_name`
 ----
 </details>
 
