@@ -147,6 +147,7 @@ hit `Ctrl + Enter` or click the change all button |To change all matches of a fi
 `Ctrl + K Ctrl + F` |Format Selection|
 `Ctrl + Shift + K`|Remove current line
 `F2`|Rename in the whole document alternativlly would be find and change all
+`Ctrl + Space`|Shows available snippets to insert
 
 ----
 </details>
